@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <title>Inicio</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+    </head>
+    <body>
+        <br>
+        <div class="container">
+            <h3>
+                Especificaciones técnicas para un servidor IIS
+            </h3>
+            <br>
+            <p>
+                Los requisitos de hardware mínimos son relativamente bajos, sin embargo hay que entender que estos requisitos son para instalar e iniciar los servicios únicamente, a la hora de utilizarlo en un servidor en producción la potencia del procesador y la cantidad de memoria depende de la cantidad de tráfico, de la cantidad de usuarios y la carga de trabajo que se espera. Para la versión de Windows Server 2016 en cuestión del procesador el requisito mínimo es un CPU de 1,4 Ghz, algo que cumple la mayoría de los CPU modernos, luego el rendimiento aumenta al aumentar la cantidad de MHz y núcleos de CPU.
+            </p>
+            <br>
+            <p>
+                <h5>Mínimo</h5>
+                <ul>
+                    <li>
+                        Procesador de 64 bits a 1,4 GHz
+                    </li>
+                    <li>
+                        Compatible con el conjunto de instrucciones x64
+                    </li>
+                    <li>
+                        Admite DEP y NX
+                    </li>
+                    <li>
+                        Admite CMPXCHG16b, LAHF/SAHF y PrefetchW
+                    </li>
+                    <li>
+                        Admite la traducción de direcciones de segundo nivel (EPT o NPT)
+                    </li>
+                </ul>
+            </p>
+            <br>
+            <p>
+                En lo referido a memoria si el servidor es instalado sin escritorio, es decir solo consola, la cantidad de memoria mínima requerida son 512MB mientras que con el escritorio el mínimo sube a 2GB minimo, obviamente para un servidor que soporte clientes la cantidad de memoria debe ser incrementada de acuerdo al tráfico, peticiones, usuarios y carga de trabajo esperadas.
+            </p>
+            <p>
+                <h5>Mínimo</h5>
+                <ul>
+                    <li>
+                        512 MB (2 GB para la opción de instalación Servidor con Experiencia de escritorio)
+                    </li>
+                    <li>
+                        Tipo ECC (código de corrección de errores) o tecnología similar.
+                    </li>
+                </ul>
+            </p>
+            <a href="pagina3.html"><h4>¿Cómo funciona un servidor IIS?</h4></a>
+        </div>
+
+    </body>
+</html>
